@@ -1,0 +1,73 @@
+{
+    "wrist_accel": {
+        "F_value": 16.652993834378037,
+        "p_value": 6.040124822020061e-08,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 0.07462847147410216,
+                "significant": false
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 2.409360646684468e-06,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 5.961519744819677e-18,
+                "significant": true
+            }
+        ]
+    },
+    "ankle_accel": {
+        "F_value": 2.8980763661321816,
+        "p_value": 0.05518061519211331,
+        "significant": false
+    },
+    "ecg": {
+        "F_value": 4127.162557928599,
+        "p_value": 0.0,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 3.4228461820901285e-95,
+                "significant": true
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 0.0,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 0.0,
+                "significant": true
+            }
+        ]
+    },
+    "face": {
+        "F_value": 253.34754559518055,
+        "p_value": 9.083434040633159e-108,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 4.1367086754288314e-12,
+                "significant": true
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 6.094308147289085e-53,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 1.2130229299816801e-91,
+                "significant": true
+            }
+        ]
+    }
+}

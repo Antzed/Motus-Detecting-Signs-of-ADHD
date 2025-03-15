@@ -1,0 +1,8 @@
+  Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+=======================================================
+ group1   group2  meandiff p-adj  lower   upper  reject
+-------------------------------------------------------
+  boring exciting  -0.0378   0.0 -0.0513 -0.0242   True
+  boring  resting   0.0889   0.0  0.0753  0.1024   True
+exciting  resting   0.1266   0.0  0.1131  0.1402   True
+-------------------------------------------------------

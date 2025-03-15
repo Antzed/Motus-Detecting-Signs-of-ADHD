@@ -1,0 +1,90 @@
+{
+    "wrist_accel": {
+        "F_value": 52.518974813382535,
+        "p_value": 2.1256191401155965e-23,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 0.5286324992288093,
+                "significant": false
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 5.95415684495878e-36,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 4.686086109873359e-19,
+                "significant": true
+            }
+        ]
+    },
+    "ankle_accel": {
+        "F_value": 88.67777534793832,
+        "p_value": 7.479764191259515e-39,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 0.3860060553094039,
+                "significant": false
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 9.087392094580326e-74,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 1.9194126766966088e-28,
+                "significant": true
+            }
+        ]
+    },
+    "ecg": {
+        "F_value": 8676.696019616604,
+        "p_value": 0.0,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 0.0,
+                "significant": true
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 2.914169765456316e-149,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 0.0,
+                "significant": true
+            }
+        ]
+    },
+    "face": {
+        "F_value": 136.9245469152124,
+        "p_value": 2.8083947643325244e-59,
+        "significant": true,
+        "post_hoc": [
+            {
+                "comparison": "boring vs exciting",
+                "p_value": 2.0163664689819302e-49,
+                "significant": true
+            },
+            {
+                "comparison": "boring vs resting",
+                "p_value": 2.1048779940184157e-11,
+                "significant": true
+            },
+            {
+                "comparison": "exciting vs resting",
+                "p_value": 1.81900142028099e-30,
+                "significant": true
+            }
+        ]
+    }
+}
